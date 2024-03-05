@@ -24,6 +24,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+     position: relative;
+    top: 10px;
 }
 .nav-left{
     display: flex;
@@ -104,7 +106,7 @@ border-bottom: 3px #cf0aee solid;
 @media screen and (max-width:650px){
     .nav-right{
         top: 5px;
-        left: 11%;
+        left: 10%;
     }
     .nav-right .imgbtn{
         width: 60%;
@@ -129,7 +131,7 @@ border-bottom: 3px #cf0aee solid;
     left: 40px;
 }
 .main .main-left h2{
-    font-size: 45px;
+    font-size: 55px;
     color: var(--colorgray1);
     margin: 5px 20px;
     padding: 5px;
@@ -138,7 +140,7 @@ border-bottom: 3px #cf0aee solid;
     color:var(--colorpurple);
 }
 .main .main-left .p1{
-    font-size: 20px;
+    font-size: 30px;
     color: var(--colorgray2);
     margin: 5px 20px;
     padding: 5px;
@@ -180,11 +182,11 @@ border-bottom: 3px #cf0aee solid;
     left: 20px;
 }
 .main .main-left h2{
-    font-size: 25px;
+    font-size: 20px;
     margin: 5px -2px;
 }
 .main .main-left .p1{
-    font-size: 17px;
+    font-size: 12px;
     margin: 5px -2px;
 }
 /*imgs*/
@@ -192,7 +194,7 @@ border-bottom: 3px #cf0aee solid;
         position: relative;
         top: 10px;
         width: 90%;
-        right: -62px;
+        right: -20px;
     }
     .imgs .back{
         position: absolute;
@@ -263,7 +265,7 @@ padding: 10px 5px 0 5px;
         top: 200px;
     }  
     .sec1 .line{
-        width: 80%;
+        width: 70%;
         left: 20%;
         height: 300px;
     }
@@ -416,6 +418,16 @@ padding: 10px 5px 0 5px;
 .div-mid{
     text-align: center;
 }
+.div-mid i{
+position: relative;
+    top: -150px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.div-mid i:hover{
+    color: var(--colorpurple);
+    font-size: 25px;
+}
 .div-mid h5{
     color:var(--colorgray3);
     font-size: 20px;
@@ -436,7 +448,7 @@ top: -15px;
 @media screen and (max-width:650px){
     .sec2{
         top: 500px;
-        left: 10%;
+        left: 3%;
     }
     .div-left img{
          width: 80%;
@@ -446,6 +458,11 @@ top: -15px;
     }
     .div-mid{
         text-align: center;
+    }
+    .div-mid i{
+        position: absolute;
+        top: 160px;
+        font-size: 10px;
     }
     .div-mid img{
         width: 100%;
